@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body{
+  background: hsl(217, 54%, 11%);
+}
+
+.box{
+  width: 300px;
+  height: auto;
+  background: hsl(216, 50%, 16%);
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.first-image{
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1{
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+p{
+  padding-top: 15px;
+  color: hsl(215, 51%, 70%);
+  font-weight: bold;
+}
+
+.sides{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.left p{
+  padding-left: 5px;
+  font-size: 18px;
+  color: hsl(178, 100%, 50%);
+}
+
+.left img{
+  height: 25px;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.right img{
+  height: 30px;
+}
+
+.right p{
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+hr{
+  margin-top: 10px;
+  border-color: hsl(215, 32%, 27%);
+  border-width: 3px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.bottom{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.bottom img{
+  width: 30px;
+  border: 2px solid #fff;
+  border-radius: 100%
+}
+
+.bottom p{
+  color: hsl(215, 51%, 70%);
+  padding-left: 5px;
+}
+
+.bottom span{
+  color: hsl(0, 0%, 100%);
+}
